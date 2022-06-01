@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>CloudServer - Responsive HTML5 Technology, Web Hosting and WHMCS Template</title>
+    <title>DeepSols - Deep IT solutions</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <meta name="description" content="">
@@ -58,8 +58,9 @@
         <nav id="secondaryMenu" class="navbar" data-sticky="true">
             <div class="container">
                 <div class="navbar-header">
-                    <a href="index-2.html" class="navbar-brand"> <img src="img/logo.png" alt=""
-                            class="img-responsive" /> </a>
+                    <a href="index-2.html" class="navbar-brand">
+                        <span class="font-size">DeepSols</span>
+                    </a>
                 </div>
                 <button class="btn menu-toggle-btn"> <i class="fa fa-navicon"></i> Menu </button>
                 <div id="secondaryNavbar" class="navbar-right reset-padding hidden-sm hidden-xs">
@@ -538,7 +539,7 @@
     <div id="services">
         <div class="container">
             <div class="section-title">
-                <h2>Our Other Services</h2>
+                <h2>Our Services</h2>
             </div>
             <div class="row row-vc">
                 <div class="col-md-6 service-item-content">
@@ -551,10 +552,10 @@
                         <li><i class="fa fa-check"></i>Lorem ipsum dolor sit amet</li>
                         <li><i class="fa fa-check"></i>Lorem ipsum dolor sit amet</li>
                     </ul>
-                    <div class="price"> <a href="service-details.html" class="btn btn-lg btn-custom">View
+                    <div class="price"> <a href="#" class="btn btn-lg btn-custom">View
                             Details</a> </div>
                 </div>
-                <div class="col-md-6 service-item-img"> <img src="img/services-img/01.png" alt=""
+                <div class="col-md-6 service-item-img"> <img src="{{ url('img/services-img/01.png') }}" alt=""
                         class="img-responsive center-block"> </div>
             </div>
         </div>
@@ -564,7 +565,7 @@
                     <div class="col-md-6 service-item-img"> <img src="img/services-img/02.png" alt=""
                             class="img-responsive center-block"> </div>
                     <div class="col-md-6 service-item-content">
-                        <h2><span>Website</span>SEO Service</h2>
+                        <h2><span>Website</span>SQA service</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis dolores ducimus pariatur
                             optio sint autem odio, provident quia debitis in.</p>
                         <ul>
@@ -573,7 +574,7 @@
                             <li><i class="fa fa-check"></i>Lorem ipsum dolor sit amet</li>
                             <li><i class="fa fa-check"></i>Lorem ipsum dolor sit amet</li>
                         </ul>
-                        <div class="price"> <a href="service-details.html" class="btn btn-lg btn-custom">View
+                        <div class="price"> <a href="#" class="btn btn-lg btn-custom">View
                                 Details</a> </div>
                     </div>
                 </div>
@@ -582,7 +583,7 @@
         <div class="container">
             <div class="row row-vc">
                 <div class="col-md-6 service-item-content">
-                    <h2><span>Internet</span>Marketing</h2>
+                    <h2><span>DEV OPS Solutions</span></h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis dolores ducimus pariatur
                         optio sint autem odio, provident quia debitis in.</p>
                     <ul>
@@ -591,7 +592,7 @@
                         <li><i class="fa fa-check"></i>Lorem ipsum dolor sit amet</li>
                         <li><i class="fa fa-check"></i>Lorem ipsum dolor sit amet</li>
                     </ul>
-                    <div class="price"> <a href="service-details.html" class="btn btn-lg btn-custom">View
+                    <div class="price"> <a href="" class="btn btn-lg btn-custom">View
                             Details</a> </div>
                 </div>
                 <div class="col-md-6 service-item-img"> <img src="img/services-img/03.png" alt=""
@@ -605,7 +606,7 @@
                 <div class="col-sm-3 col-xs-6">
                     <div class="counter-holder">
                         <div class="counter-icon"><i class="fa fa-at"></i></div>
-                        <p class="counter-text">Domains Registered</p>
+                        <p class="counter-text">No of Projects</p>
                         <div class="counter-number" data-counter-up="true">2,500</div>
                     </div>
                 </div>
@@ -871,12 +872,11 @@
     </div>
     <div id="copyright">
         <div class="container">
-            <p class="left">Copyright 2018 &copy; <a href="#">CloudServer</a>. All Rights Reserved.</p>
+            <p class="left">Copyright 2022 &copy; <a href="#">Deep$ols</a>. All
+                Rights Reserved.</p>
             <p class="right">We Accept: <img src="img/payment-methods.png" alt=""></p>
         </div>
     </div>
-    <div id="backToTop"> <a href="http://www.themelooks.us/demo/cloudserver/html/preview/body"
-            data-animate-scroll="true"><i class="fa fa-angle-up"></i></a> </div>
     <script src="{{ url('js/jquery-3.1.0.min.js') }}"></script>
     <script src="{{ url('js/jquery-ui.min.js') }}"></script>
     <script src="{{ url('js/jquery.ui.touch-punch.min.js') }}"></script>
